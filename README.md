@@ -1,2 +1,2 @@
 # keyboard-translator
-translate corresponding letter on keyboard from Thai to English and vice versa.
+translate corresponding letters on keyboard from Thai to English and vice versa.

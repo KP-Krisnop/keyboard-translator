@@ -1,0 +1,48 @@
+body {
+    height: 200px;
+    width: 500px;
+    background-color: white;
+    font-family: 'Outfit';
+}
+
+h1 {
+    color: #1d1e1f;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+input {
+    width: 80%;
+    height: 50px;
+    border: solid 2px;
+    border-radius: 16px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.25rem;
+    font-family: 'Outfit';
+}
+
+button {
+    width: 56px;
+    height: 56px;
+    border: solid 2px;
+    border-radius: 16px;
+    background-color: transparent;
+    transition: all 0.15s;
+}
+
+button:active {
+    transform: translateY(-2px);
+}
+
+.popup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container {
+    width: 80%;
+    display: flex;
+    gap: 8px;
+}
